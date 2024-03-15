@@ -1,0 +1,19 @@
+# Request
+int32 task_type_id  # Defined in TaskType class
+int32 task_execution_timeout
+geometry_msgs/Pose target_pose
+# trigger type
+# triger value
+
+vikings_bot_interfaces/Task plan
+
+---
+# Result
+bool status  # True, if success
+string err_msg
+float32 distance_to_target
+
+---
+# Feedback
+builtin_interfaces/Duration estimated_time_remaining
+
