@@ -1,0 +1,21 @@
+# Request
+int32 direction             # 1: go to charger; -1: step back from charger
+int32 timeout               # Timeout for action
+
+float32 reflector_distance  # Distance between reflectors in meters
+float32 pre_frame_distance  # Distance from mid of charger to pre frame
+float32 base_to_charger     # Target distance from base_link to mid of charger
+float32 forward_distance    # Extra disatnce for robot to go straight to charger
+
+float32 step_back_distance  # Distance for robot to go back in meters
+float32 step_back_angle     # Angle for robot to turn in radians
+
+---
+# Result
+bool status                 # True, if success
+string err_msg              # Any extra info
+
+---
+# Feedback
+
+
