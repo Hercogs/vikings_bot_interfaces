@@ -1,6 +1,6 @@
 # Request
 int32 direction             # 1: go to charger; -1: step back from charger
-int32 timeout               # Timeout for action
+int32 timeout               # Timeout for action in seconds
 
 float32 reflector_distance  # Distance between reflectors in meters
 float32 pre_frame_distance  # Distance from mid of charger to pre frame
